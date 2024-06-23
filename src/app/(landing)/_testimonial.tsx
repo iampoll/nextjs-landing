@@ -16,9 +16,9 @@ function Testimonial() {
       ></Image>
 
       <p className="max-w-4xl mx-auto text-sm md:text-2xl text-center !leading-9  mb-8">
-        "Using SIMS has greatly enhanced my ability to educate and guide my
-        students, particularly in the area of tile printing. It has
-        significantly improved the quality of our educational experience."
+        &ldquo;Using SIMS has greatly enhanced my ability to educate and guide
+        my students, particularly in the area of tile printing. It has
+        significantly improved the quality of our educational experience.&ldquo;
       </p>
 
       <div>

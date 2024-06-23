@@ -10,10 +10,19 @@ import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/components/magicui/hero-highlight";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
+import Particles from "@/components/magicui/particles";
 
 function Hero() {
   return (
-    <div className="relative h-[2000px] overflow-hidden py-14 text-center">
+    <div className="relative h-[100svh] overflow-hidden py-20 text-center">
+      <Particles
+        className="absolute inset-0"
+        quantity={100}
+        ease={80}
+        color="#000000"
+        refresh
+      />
+
       <AnimatedGradientText>
         🎉 <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
         <span

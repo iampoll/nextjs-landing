@@ -6,10 +6,12 @@ import { Button } from "./ui/button";
 import { siteConfig } from "@/config/site";
 import { ChevronRightIcon } from "lucide-react";
 
+import { NavMenu } from "./nav";
+
 function MainNav() {
   return (
     <header className="flex py-4 px-16 justify-between items-center sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <section>
+      <section className="flex gap-4">
         <Link href="/">
           <Image
             src={siteConfig.logo}
@@ -18,6 +20,8 @@ function MainNav() {
             height={100}
           ></Image>
         </Link>
+
+        <NavMenu />
       </section>
 
       <section className="flex gap-4">

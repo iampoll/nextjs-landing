@@ -3,16 +3,7 @@ import React from "react";
 import NumberTicker from "@/components/magicui/number-ticket";
 import Marquee from "@/components/magicui/marquee";
 
-const companies = [
-  "Google",
-  "Microsoft",
-  "Amazon",
-  "Netflix",
-  "YouTube",
-  "Instagram",
-  "Uber",
-  "Spotify",
-];
+const universities = ["ISCP", "Harvard", "MIT", "California", "Oxford"];
 
 function SocialProof() {
   return (
@@ -49,11 +40,11 @@ function SocialProof() {
             <div className="relative mt-6">
               <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden py-4">
                 <Marquee pauseOnHover className="[--duration:20s]">
-                  {companies.map((logo, idx) => (
+                  {universities.map((logo, idx) => (
                     <img
                       key={idx}
-                      src={`https://cdn.magicui.design/companies/${logo}.svg`}
-                      className="h-10 w-40 px-2 dark:brightness-0 dark:invert"
+                      src={`/${logo}.png`}
+                      className="h-40 w-40 mx-4 lg:mx-8 dark:brightness-0 dark:invert"
                       alt={logo}
                     />
                   ))}

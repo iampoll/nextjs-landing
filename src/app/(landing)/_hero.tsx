@@ -11,6 +11,7 @@ import { HeroHighlight, Highlight } from "@/components/magicui/hero-highlight";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import Particles from "@/components/magicui/particles";
+import BlurIn from "@/components/magicui/blur-in";
 
 function Hero() {
   return (
@@ -35,9 +36,10 @@ function Hero() {
         <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
       </AnimatedGradientText>
 
-      <h1 className="relative max-w-[46.5rem] text-balance bg-gradient-to-br from-black from-50% to-neutral-200/60 bg-clip-text pt-5 text-4xl font-semibold tracking-tighter text-transparent dark:text-white sm:text-7xl mx-auto md:px-4 md:py-2 md:text-center md:text-7xl lg:text-7xl my-4">
-        Next-Gen Solutions for Next-Gen Students
-      </h1>
+      <BlurIn
+        className="relative max-w-[46.5rem] text-balance bg-gradient-to-br from-black from-50% to-neutral-200/60 bg-clip-text pt-5 text-4xl font-semibold tracking-tighter text-transparent dark:text-white sm:text-7xl mx-auto md:px-4 md:py-2 md:text-center md:text-6xl lg:text-6xl my-4"
+        word="Next-Gen Solutions for Next-Gen Students"
+      />
 
       <HeroHighlight>
         <motion.h1

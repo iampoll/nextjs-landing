@@ -10,8 +10,8 @@ function Testimonial() {
         unoptimized
         src="https://scontent.fmnl7-2.fna.fbcdn.net/v/t39.30808-6/317476380_3406264189620627_8615193188420405841_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFfnz8KxwIL__rAlwf03B8Y0ropRF61AHLSuilEXrUAcnYuhQWpH4BkPEgOvZ3DtCwaG5AGcbrdXRSk6dO8cwcL&_nc_ohc=BmmS_ytJEKIQ7kNvgED8Pgj&_nc_ht=scontent.fmnl7-2.fna&oh=00_AYCcbsY72WXRDAtp6qt_ldbWK7oL_GaJrvE21taVLyP7pQ&oe=667DE43E"
         alt="Cristian Ferrond"
-        width={200}
-        height={200}
+        width={50}
+        height={50}
         className="md:size-12 lg:size-16 zoom-in-50 rounded-full mx-auto"
       ></Image>
 

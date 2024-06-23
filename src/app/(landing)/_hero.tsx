@@ -15,7 +15,7 @@ import BlurIn from "@/components/magicui/blur-in";
 
 function Hero() {
   return (
-    <div className="relative h-[100svh] overflow-hidden py-20 text-center">
+    <div className="relative h-[100svh] overflow-hidden py-20 text-center px-4 text-sm sm:text-normal">
       <Particles
         className="absolute inset-0"
         quantity={100}

@@ -7,7 +7,7 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 
 export function HeroScroll() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="md:flex flex-col overflow-hidden hidden">
       <ContainerScroll titleComponent={<></>}>
         <BorderBeam size={500} duration={12} delay={9} />
         <Image

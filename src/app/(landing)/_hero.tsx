@@ -36,7 +36,7 @@ function Hero() {
       </AnimatedGradientText>
 
       <h1 className="relative max-w-[46.5rem] text-balance bg-gradient-to-br from-black from-50% to-neutral-200/60 bg-clip-text pt-5 text-4xl font-semibold tracking-tighter text-transparent dark:text-white sm:text-7xl mx-auto md:px-4 md:py-2 md:text-center md:text-7xl lg:text-7xl my-4">
-        Student Information Management System
+        Next-Gen Solutions for Next-Gen Students
       </h1>
 
       <HeroHighlight>

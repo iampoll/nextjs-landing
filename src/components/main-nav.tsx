@@ -11,13 +11,14 @@ import { NavMenu } from "./nav";
 function MainNav() {
   return (
     <header className="py-4 px-16 justify-between items-center sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 hidden md:flex">
-      <section className="flex gap-4">
+      <section className="flex gap-4 items-center">
         <Link href="/">
           <Image
             src={siteConfig.logo}
             alt="Logo"
-            width={100}
-            height={100}
+            width={10}
+            height={10}
+            className="h-auto w-auto max-h-[3rem] max-w-[3rem] sm:max-h-[5rem] sm:max-w-[5rem]"
           ></Image>
         </Link>
 
